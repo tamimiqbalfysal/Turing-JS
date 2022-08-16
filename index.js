@@ -1,17 +1,18 @@
-let role = 'guest';
+const person = {
+    name: 'Mosh',
+    age: 30
+};
 
-switch (role) {
-    case 'guest': 
-    console.log('Guest User');
-    break;
-
-    case 'moderator':
-        console.log('Moderator User');
-        break;
-
-        default:
-            console.log('Unknown User');
+for (let key in person){
+    console.log(key, person[key]);
 }
 
-if (role === 'guest')
-cosole
+const colors = ['red', 'green','blue'];
+
+for (let index in colors)
+console.log(index, colors[index]);
+
+for (let color of colors)
+{
+    console. log(color);
+}
