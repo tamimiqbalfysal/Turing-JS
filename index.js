@@ -1,10 +1,13 @@
-function greet(name) {
-    console.log('Hello WOrld ' + name + '' +lastName);
-}
+let highIncome = true;
+let goodCreditScore = true;
+let eligibleForLoan = highIncome || goodCreditScore;
 
-function square(number){
-    return number*number;
-}
+console.log('Eligible', eligibleForLoan);
 
-let number = (square(2));
-console.log(square(2));
+let applicationRefused =! eligibleForLoan;
+
+
+
+
+console.log(eligibleForLoan);
+
