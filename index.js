@@ -1,18 +1,15 @@
-const person = {
-    name: 'Mosh',
-    age: 30
-};
 
-for (let key in person){
-    console.log(key, person[key]);
+
+
+number1 = 30;
+
+number2 = 40;
+
+if(number1>number2)
+{
+    console.log(number1);
 }
 
-const colors = ['red', 'green','blue'];
-
-for (let index in colors)
-console.log(index, colors[index]);
-
-for (let color of colors)
-{
-    console. log(color);
+else{
+    console.log(number2); 
 }
