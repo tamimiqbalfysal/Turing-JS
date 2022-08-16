@@ -1,13 +1,10 @@
-let highIncome = true;
-let goodCreditScore = true;
-let eligibleForLoan = highIncome || goodCreditScore;
+let a = 'red';
+let b = 'blue';
 
-console.log('Eligible', eligibleForLoan);
-
-let applicationRefused =! eligibleForLoan;
+let c = a;
+a=b;
 
 
-
-
-console.log(eligibleForLoan);
+console.log(a);
+console.log(b);
 
