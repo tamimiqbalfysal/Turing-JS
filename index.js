@@ -1,10 +1,17 @@
-let a = 'red';
-let b = 'blue';
+//hour 
 
-let c = a;
-a=b;
+let hour = 10;
+
+if (hour >= 6 && hour < 12){
+    console.log('Good Morning');
+}
 
 
-console.log(a);
-console.log(b);
+if (hour >= 12 && hour <=18){
+    console.log('Good Afternoon');
+}
+
+if (hour >= 18 && hour <=24) {
+    console.log('Good Evening');
+}
 
