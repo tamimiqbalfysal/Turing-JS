@@ -1,15 +1,8 @@
+console.log(isLandscape(800,600)); 
 
 
+function isLandscape(width,height){
+    return (width>height);
+    }
 
-number1 = 30;
 
-number2 = 40;
-
-if(number1>number2)
-{
-    console.log(number1);
-}
-
-else{
-    console.log(number2); 
-}
