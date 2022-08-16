@@ -1,15 +1,10 @@
-let person = {
-    name: 'Mosh',
-    age: 30
-};
+function greet(name) {
+    console.log('Hello WOrld ' + name + '' +lastName);
+}
 
-person.name= 'John';
+function square(number){
+    return number*number;
+}
 
-let selectedColors = ['red', 'blue'];
-selectedColors[2] = 1;
-console.log(selectedColors);
-
-
-let selection = 'name';
-person[selection] = 'Mary'; 
-console.log(person.name); 
+let number = (square(2));
+console.log(square(2));
