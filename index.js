@@ -1,21 +1,7 @@
+const numbers = [1,2,3,1,4];
 
-const output = fizzBuzz(5);
-console.log(output);
+console.log(numbers.indexOf(1));
+console.log(numbers.lastIndexOf(1));
 
-
-function fizzBuzz(input){
-    if (typeof input !== 'number')
-    return 'Not a number';
-
-    if (input%3 ===0)
-    return 'Fizz';
-
-    if (input%5 ===0)
-    return 'Buzz';
-
-    if ((input%3 ===0) && (input %5 ===0))
-    return 'FizzBuzz';
-
-    return input; 
-}
-
+console.log(numbers.indexOf(1) !== -1);
+console.log(numbers.includes(1));
